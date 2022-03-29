@@ -1,0 +1,24 @@
+curl 'https://branddb.wipo.int/branddb/jsp/select.jsp' -X POST -H 'User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:98.0) Gecko/20100101 Firefox/98.0' -H 'Accept: application/json, text/javascript, */*; q=0.01' -H 'Accept-Language: en-US,en;q=0.5' -H 'Accept-Encoding: gzip, deflate, br' -H 'Content-Type: application/x-www-form-urlencoded; charset=UTF-8' -H 'X-Requested-With: XMLHttpRequest' -H 'Origin: https://branddb.wipo.int' -H 'Connection: keep-alive' -H 'Referer: https://branddb.wipo.int/branddb/en/' -H 'Cookie: JSESSIONID=B78FFA53DECF1C2F07496B1B8C8EA668.bswa1n; wipo-visitor-uunid=3d7a7ef57725c5e7; _gcl_au=1.1.731819721.1648030653; _ga_15TSHJ0HWP=GS1.1.1648036834.3.0.1648036834.0; _ga=GA1.2.1515082317.1648030654; _pk_id.9.ec75=396b4e6bdfe4a8a5.1648030654.3.1648037014.1648034481.; _ga=GA1.3.1515082317.1648030654; _gid=GA1.3.2013595635.1648030654; _pk_uid=0%3DczoxNjoiMzk2YjRlNmJkZmU0YThhNSI7%3A_%3Dbd4eec3888caf46820a32079fae07e561888c0b5; _gid=GA1.2.2013595635.1648030654; _pk_ses.9.ec75=1; _gat=1' -H 'Sec-Fetch-Dest: empty' -H 'Sec-Fetch-Mode: cors' -H 'Sec-Fetch-Site: same-origin' -H 'TE: trailers' --data-raw 'qz=N4IgDiBcoM4KYEMBOBjAFlWBHKBtUALnFCAMIByIANCAGYCWJA8kyAL5WHGRmU0PNWbALocQSAPYB3GFACMABgViCATzDcQAIyQIAdgBNqIADYIScPcayMeAJgC0ADztOAXgEkTAJQkBZAFFaBAArAA47ADcAFRMnAC05OWiYABEATgBbJgBxAFYmPWiUPwMARUyNVLsAQQBeawBXOGb5GgB9EiSANm689iAAA=='
+
+await fetch("https://branddb.wipo.int/branddb/jsp/select.jsp", {
+    "credentials": "include",
+    "headers": {
+        "User-Agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:98.0) Gecko/20100101 Firefox/98.0",
+        "Accept": "application/json, text/javascript, */*; q=0.01",
+        "Accept-Language": "en-US,en;q=0.5",
+        "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+        "X-Requested-With": "XMLHttpRequest",
+        "Sec-Fetch-Dest": "empty",
+        "Sec-Fetch-Mode": "cors",
+        "Sec-Fetch-Site": "same-origin"
+    },
+    "referrer": "https://branddb.wipo.int/branddb/en/",
+    "body": "qz=N4IgDiBcoM4KYEMBOBjAFlWBHKBtUALnFCAMIByIANCAGYCWJA8kyAL5WHGRmU0PNWbALocQSAPYB3GFACMABgViCATzDcQAIyQIAdgBNqIADYIScPcayMeAJgC0ADztOAXgEkTAJQkBZAFFaBAArAA47ADcAFRMnAC05OWiYABEATgBbJgBxAFYmPWiUPwMARUyNVLsAQQBeawBXOGb5GgB9EiSANm689iAAA==",
+    "method": "POST",
+    "mode": "cors"
+});
+
+qz=N4IgDiBcoM4KYEMBOBjAFlWBHKBtUALnFCAMIByIANCAGYCWJA8kyAL4C6bNSA9gO4woARgAMo7iAIBPMMUggARkgQA7ACbUQAGwQk4qrVkYLhAWgCaAN34AJGNvqqA6gGoAigHNeANQCSAGIAovwASqIAXgDWADLaWBYAqgCyVqQA0lEAnGgxwgAa7vxBAAoAHokAvEYArnB1IjQA+iTCwgBs7QCs7EAAA=
+qz=N4IgDiBcoM4KYEMBOBjAFlWBHKBtUALnFCAMIByIANCAGYCWJA8kyAL4C6bNSA9gO4woARgAMo7iAIBPMMUggARkgQA7ACbUQAGwQk4qrVkYKAzAFoATAA8A0gGUCARWlOA6gCUAbgGpF9AHNpAE1hfgAxAGsAVwAFSzQfWw9VAC1UgFVpWgArAHYADQBRaNUACQBJFABeI2i4epEaAH0SYWEANg6AVnYgA
+qz=N4IgDiBcoM4KYEMBOBjAFlWBHKBtUALnFCAMIByIANCAGYCWJA8kyAL5WHGRmU0PNWbALocQSAPYB3GFACMABgViCATzDcQAIyQIAdgBNqIADYIScPcayMeAJgC0ADztOAXgEkTAJQkBZAFFaBAArAA47ADcAFRMnAC05OWiYABEATgBbJgBxAFYmPWiUPwMARUyNVLsAQQBeawBXOGb5GgB9EiSANm689iAAA==
+qz=N4IgDiBcoM4KYEMBOBjAFlWBHKBtUALnFCAMIByIANCAGYCWJA8kyAL4C6bNSA9gO4woARgAMomjALICI8dxAEAnmGKQQAIyQIAdgBNqIADYIScHYayN1wgLSimwnfwCKAVgDWTJAFcAIgBSpAh6AELeAG4AHgASAGIAygDMAcIAVmkA6gBMSW4AHACctABeWABaAIIIAJIAqgC8lj5wLSI0APokwsIAbL1u7EAA
