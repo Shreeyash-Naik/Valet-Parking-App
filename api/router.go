@@ -10,5 +10,6 @@ func MountRoutes(app *fiber.App) {
 		api.Post("/checkin", Checkin)
 		api.Get("/checkout", Checkout)
 		api.Get("/search", Search)
+		api.Get("/all", All)
 	}
 }

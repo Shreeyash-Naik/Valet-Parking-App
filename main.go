@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"log"
 	"os"
 	"strconv"
@@ -38,7 +39,7 @@ func main() {
 	api.MountRoutes(app)
 
 	// Fiber Start
-	err := app.Listen("localhost:3000")
+	err := app.Listen(fmt.Sprintf("%s:%s", os.Getenv("APP_HOST"), os.Getenv("APP_PORT")))
 	if err != nil {
 		log.Fatalln("Error Starting Fiber: ", err)
 	}
