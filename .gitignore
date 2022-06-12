@@ -4,3 +4,5 @@ env
 # iml & xml
 .idea
 
+# Front-end
+\front-end
