@@ -39,7 +39,7 @@ func main() {
 	api.MountRoutes(app)
 
 	// Fiber Start
-	err := app.Listen(fmt.Sprintf("%s:%s", os.Getenv("APP_HOST"), os.Getenv("APP_PORT")))
+	err := app.Listen(fmt.Sprintf(":%s", os.Getenv("APP_PORT")))
 	if err != nil {
 		log.Fatalln("Error Starting Fiber: ", err)
 	}

@@ -11,7 +11,7 @@ import (
 // ../api/checkin
 func Checkin(ctx *fiber.Ctx) error {
 	body := new(CheckinBody)
-	if err := ctx.BodyParser(body); err != nil {
+	if err := ctx.QueryParser(body); err != nil {
 		return fiber.ErrBadRequest
 	}
 

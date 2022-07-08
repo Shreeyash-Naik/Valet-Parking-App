@@ -7,7 +7,7 @@ import (
 func MountRoutes(app *fiber.App) {
 	api := app.Group("/api")
 	{
-		api.Post("/checkin", Checkin)
+		api.Get("/checkin", Checkin)
 		api.Get("/checkout", Checkout)
 		api.Get("/search", Search)
 	}

@@ -1,10 +1,10 @@
 package api
 
 type CheckinBody struct {
-	VehicleNumber string `json:"vehicle_number"`
-	VehicleModel  string `json:"vehicle_model"`
-	VehicleType   string `json:"vehicle_type"`
-	OwnerPhone    int    `json:"owner_phone"`
+	VehicleNumber string `query:"vehicle_number"`
+	VehicleModel  string `query:"vehicle_model"`
+	VehicleType   string `query:"vehicle_type"`
+	OwnerPhone    int    `query:"owner_phone"`
 }
 
 type CheckoutQuery struct {
